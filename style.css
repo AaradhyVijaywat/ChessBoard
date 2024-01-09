@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  width: 800px;
+  display: grid;
+  border: 10px solid brown;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.white{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(246, 80, 19);
+}
+
+.black{
+  width: 100px;
+  height: 100px;
+  background-color:rgb(235, 168, 168) ;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bolder;
+  padding: 20px;
+}
+
